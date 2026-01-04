@@ -6,7 +6,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.ensemble import RandomForestClassifier
 import joblib
 
-df = pd.read_csv("data/product_reviews_full.csv")
+df = pd.read_csv(r"c:\Users\10\Desktop\ITAcademy\Introduction to Machine Learning using Python\Vežbe\lokalni_repozitorijum\ml-product-reviews-project\data\product_reviews_full.csv")
  
 # drop all rows with missing values
 df = df.dropna()
