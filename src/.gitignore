@@ -1,3 +1,3 @@
-# Ignore all .pkl files
+# Ignore all .pkl files beacuse git is for source code files not for aplication files
 *.pkl
 /model
